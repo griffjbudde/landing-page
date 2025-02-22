@@ -111,6 +111,7 @@ button {
     padding: 0;
     gap: 25px;
     max-width: 50%;
+    flex: 1;
 }
 
 .information {
@@ -149,5 +150,51 @@ button {
     font-size: 24px;
     align-self: flex-end;
     margin-right: 35%;
+}
 
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+
+}
+
+.call-container {
+    height: 150px;
+    width: 900px;
+    background-color: #3882F6;
+    display: flex;
+    border-radius: 8px;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-top: 40px;
+    color: #E5E7EB;
+}
+
+.call-button {
+    border-color: #E5E7EB;
+    border-style: solid;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.call-title {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+footer {
+    margin-top: auto;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    margin: 0;
 }
